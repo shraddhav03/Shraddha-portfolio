@@ -4,89 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home  |  adarshbalika</title>
+    <link href="\styles.css"  rel ="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Shraddha's component library</h1>
-    <p>
-        I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-    <br/>
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>let me show you the normal text.</p>
-    <small>This is the relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till end of the pafe.</div>
-    <h3>center container</h3>
-
-    <br>
-
-    <div>this is center container and this will go till specified width.</div>
-    <h2>@Links</h2>
-    <a href ="/">Primary Link</a>
-    <a href ="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-
-    <h3>@unordered list</h3>
-
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
+<nav class="navigation container">
+    <div class = "nav-barand">IAMDEVELOPER</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+            <a class="link link-active" href ="/">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href ="/projects.html">
+                projects</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href ="/blogs.html">
+                blogs</a>
+        </li>
     </ul>
+</nav>
 
-    <h3>unordered inline list</h3>
+<header class ="hero">
+    <img class = "hero-img" 
+    src="/images/hero-image.svg"/>
+    <h1 class = "hero-heading">
+        adarsh balika the web developer
+    </h1>
+</header>
 
-    <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
-    </ul>
+<section class="section Ow">
+    <div class="container container-center">
+        <h1>technologies</h1>
+        <p>I'm familiar with HTML5, CSS3,
+            Git, JavaScript, NodeJS,
+            ReactJS, and Web Hosting
+        </p>
+    </div>
+</section>
 
-    <h3>reveresed ordered list</h3>
+<section class="section ">
+    <div class="container container-center">
+        <h1>projects</h1>
+        <p>I like to showcase my work
+            and thus, you can see my 
+            projects hosted online
+        </p>
+        <a class = "link link-primary"
+        href="/">See Projects</a>
+    </div>
+</section>
 
-    <ol>
-        <li>milk</li>
-        <li>egg</li>
-        <li>bread</li>
-    </ol>
+<section class="section Ow">
+    <div class="container container-center">
+        <h1>blogs</h1>
+        <p>I am also working on 
+            some technical and 
+            non techincal blogs. 
+            I like to document my 
+            journey of learning.</p>
+            <a class = "link link-secondary"
+            href="/">Read Blogs</a>
+        
+    </div>
+</section>
 
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <ul>
-            <li>
-                <a href ="/">home</a>
+<footer class="footer">
+    <div class="footer-header">
+       social media presence
+    </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/shraddhav03">
+                    github
+                </a>
             </li>
-            <li>
-                <a href ="/">produncts</a>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/SSV">
+                    twitter
+                </a>
             </li>
-            <li>
-                <a href ="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="https://linkedin.com/in/shraddha-verma-193477258">
+                    linkedin
+                </a>
             </li>
         </ul>
-    </nav>
-
-    <hr>
-
-    <h2>header</h2>
-
-    <header>
-        <img src=""/>
-        <h1>heading inside hero.</h1>
-    </header>
-
-
+    
+</footer>
 </body>
-</html>
